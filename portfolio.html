@@ -4,6 +4,8 @@
 <head>
     <title>Bootstrap Portfolio</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,13 +14,12 @@
 </head>
 <style>
     body {
-        background-image: url("intersection.png");
-    }
+        background-image: url("assets/images/intersection.PNG");    }
 </style>
 
 <body>
     <!-- NavBar With Name-->
-      <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffffff;">
         <a class="navbar-brand" href="#" style="background-color: #4aaaa5; padding: 20px; margin-left: 19.5%; color: #ffffff;"> Shervin Mansouri </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -43,6 +44,18 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
+                <div style="height:40px; width:1.5px; border:1.5px solid #dddddd;"></div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.linkedin.com/in/shervin-mansouri-b35b11152/">LinkedIn </a>
+                    <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <div style="height:40px; width:1.5px; border:1.5px solid #dddddd;"></div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/smansouri14">GitHub</a>
+                    <span class="sr-only">(current)</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -57,68 +70,77 @@
             <h1 class="col-md-12" style="margin: auto; background-color: white; color: #4aaaa5;" font-size: "24px;">Portfolio
             <div style="margin-top:5px; height:1px; width:100%; border-top:3px solid gray;"></div></h1>
             </div>
+
             <div class="row" style="float: left;">
-                <div class="col-md-4" style="background-color: white; color: black;">
-                    <a href="https://smansouri14.github.io/train-times/">
-                        <img class="img-responsive" alt="" src="trainTimes.PNG" style="height:99%; width: 80%; padding-bottom: 5%;"/>  
-                    </a>
-                    <h4 style= "z-index: 100; position:absolute; bottom:0px;background: #4aaaa5; width: 73.8%;text-align: center;">Train Times Firebase</h4>
+                <div class="col-md-3"style= "background-color: white;">
+                    <div class="card" style="width: 100%; margin-top: 20px;">
+                        <a href="https://smansouri14.github.io/train-times/">
+                            <img class="card-img-top" id="img" src="assets/images/trainTimes.PNG" alt="Card image cap">
+                        </a>
+                        <div class="card-body" style="background-color: #4aaaa5">
+                            <p class="card-text" style="text-align: center;">Train Times Using Firebase</p>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div class="col-md-4" style="background-color: white; color: black;">
-                    <a href="https://smansouri14.github.io/triviaGame/">
-                        <img class="responsive;" src="triviaGame.PNG" style="height:99%; width: 80%; padding-bottom: 5%;">   
-                    </a>          
-                    <h4 style= "z-index: 100; position:absolute; bottom:0px;background: #4aaaa5; width: 73.8%;text-align: center;">Trivia Game</h4>      
+                <div class="col-md-3"style= "background-color: white;">
+                    <div class="card" style="width: 100%; margin-top: 20px;">
+                        <a href="https://smansouri14.github.io/triviaGame/">
+                            <img class="card-img-top" id="img" src="assets/images/triviaGame.PNG" alt="Card image cap">
+                        </a>
+                        <div class="card-body" style="background-color: #4aaaa5">
+                            <p class="card-text">Trivia Game</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3"style= "background-color: white;">
+                    <div class="card" style="width: 100%; margin-top: 20px;">
+                        <a href="https://smansouri14.github.io/gifTastic/">
+                            <img class="card-img-top" id="img" src="assets/images/gifApp.PNG" alt="Card image cap">
+                        </a>
+                        <div class="card-body" style="background-color: #4aaaa5">
+                            <p class="card-text">World Cup Gifs</p>
+                        </div>
+                    </div>
                 </div>
 
 
-    
-                <div class="col-md-4" style="background-color: white; color: black;">
-                    <a href="https://smansouri14.github.io/gifTastic/">    
-                        <img class="responsive;" src="gifApp.PNG" style="height:99%; width: 80%; padding-bottom: 5%;">
-                    </a>
-                    <h4 style= "z-index: 100; position:absolute; bottom:0px;background: #4aaaa5; width: 73.8%;text-align: center;">World Cup Gifs</h4>
-                </div>
-           
-                <div class="col-md-4" style="background-color: white; color: black;">
-                    <a href="https://smansouri14.github.io/unit-4-game/">
-                        <img class="responsive;" src="crystal.PNG" style="height:99%; width: 80%; padding-bottom: 5%;">         
-                    </a>   
-                    <h4 style= "z-index: 100; position:absolute; bottom:0px;background: #4aaaa5; width: 73.8%;text-align: center;">Crystal Colector Game</h4>       
-                </div>
-    
-                <div class="col-md-4" style="background-color: white; color: black;">
-                    <a href="https://smansouri14.github.io/Psychic-Game/">    
-                        <img class= "responsive;" src="psychic.PNG" style="height:99%; width: 80%; padding-bottom: 5%;"/>   
-                    </a>
-                    <h4 style= "z-index: 100; position:absolute; bottom:0px;background: #4aaaa5; width: 73.8%;text-align: center;">Psychic Letter Game</h4>              
-                </div>
-    
-                <div class="col-md-4" style="background-color: white; color: black;">
-                </div>
+                <div class="col-md-3"style= "background-color: white;">
+                        <div class="card" style="width: 100%; margin-top: 20px;">
+                            <a href="https://smansouri14.github.io/unit-4-game/">
+                                <img class="card-img-top" id="img" src="assets/images/crystal.PNG" alt="Card image cap">
+                            </a>
+                            <div class="card-body" style="background-color: #4aaaa5">
+                                <p class="card-text">Crystal Colector Game</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="row" style="float: left;">
+                    <div class="col-md-3" style="background-color: white; ">
+                        <div class="card" style="width: 100%; margin-top: 20px;">
+                            <a href="https://smansouri14.github.io/Psychic-Game/">
+                                <img class="card-img-top" id="img" src="assets/images/psychic.PNG" alt="Card image cap">
+                            </a>
+                            <div class="card-body" style="background-color: #4aaaa5">
+                                <p class="card-text">Psychic Letter Game</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="col-md-4" style="background-color: white; color: black;">
-                </div>
-    
-                <div class="col-md-4" style="background-color: white; color: black;">
-                </div>
-    
-                <div class="col-md-4" style="background-color: white; color: black;">
-                </div>
             </div>
         </div>
-    </div>
-</div>
+        
 
 
-
-<footer class="footer" style= "position: absolute; bottom: 0; width: 100%; height:60px; line-height: 60px; background-color: #666666; text-align: center; border-top:5px solid #4aaaa5";>
-        <div class="container">
-            <span  style=" color: white">Copyright ©</span>
-            </div>
-        </footer>
+            <footer class="footer"  style="background-color: #666666; position:fixed-bottom; height:50px; text-align: center; border-top:5px solid #4aaaa5;">
+                <div class="container">
+                    <span style=" color: white">Copyright ©</span>
+                </div>
+            </footer>
 </body>
 
 </html>
