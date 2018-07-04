@@ -4,11 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#footer {
-    height: 5%;
-    position: fixed;
-    bottom: 0%;
+body {
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
 }
 
 #img {
@@ -20,4 +19,15 @@
 
 }
 
+a:hover {
+    background-color: #45618e;
+}
 
+.footer {
+    position: absolute;
+    right: 0;        
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
