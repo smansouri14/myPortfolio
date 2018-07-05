@@ -10,17 +10,8 @@ body {
     min-height: 100vh;
 }
 
-#img {
-    height: 175px;
-}
-
-.card {
-    text-align: center;
-
-}
-
 a:hover {
-    background-color: #45618e;
+    background-color: #b6bfc6;
 }
 
 .footer {
@@ -30,4 +21,23 @@ a:hover {
     left: 0;
     padding: 1rem;
     text-align: center;
+}
+
+#demo {
+    color: black;
+    font-size: 24px;
+}
+
+.carolTitle {
+    font-size: 32px;  
+    color:#203659;
+    
+}
+
+.carolFont {
+    font-size: 24px;  
+}
+
+#grad {
+    background: radial-gradient(circle, #203659, #3a77ad);
 }
